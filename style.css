@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+}
+p {
+    color: white;
+}
+.bgimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.topBar > img {
+    top: 0;
+    left: 0;
+    width: 70vw;
+    z-index: 1;
+}
+.topBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.65vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.maincontholder {
+    position: relative;
+    width: 97.5vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px;
+    z-index: 0;
+}
+.maincont {
+    width: 70vw;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.70);
+    z-index: 0;
+}
+
+
+
+.linktopages {
+    display: flex;
+    margin-top: 340px;
+    justify-content: space-around;
+}
+.linktopages > a > p{
+    font-size: 1.25rem;
+}
+.linktopages > a {
+    text-decoration: none;
+}
+
+
+
+
+.anim-underline-fx {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.795) 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 1px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    transition: background-position .3s;
+}
+.anim-underline-fx:hover {
+    background-position: 0% 100%;
+}
+
+
+
+.box {
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.box > p {
+    font-size: 1.25rem;
+}
+.items {
+    width: 67vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.items > img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.items > img:hover {
+    scale: 1.05;
+}
+.box2 {
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: blueviolet;
+}

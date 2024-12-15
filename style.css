@@ -58,7 +58,7 @@ p {
 
 .linktopages {
     display: flex;
-    margin-top: 340px;
+    margin-top: 345px;
     justify-content: space-around;
 }
 .linktopages > a > p{

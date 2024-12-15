@@ -96,7 +96,10 @@ p {
     padding: 10px;
 }
 .box > p {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+}
+.box > p {
+    font-size: 1.3rem;
 }
 .items {
     width: 67vw;
